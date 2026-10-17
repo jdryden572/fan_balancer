@@ -25,7 +25,6 @@
 
 // ---- Adjust to your wiring / setup ----
 const int SDA_PIN = 22;               // ESP32-C6-DevKitC-1 default SDA
-const int BOOT_PIN = 9;               // BOOT button on the ESP32-C6-DevKitC-1 (active low)
 const int SCL_PIN = 23;              // ESP32-C6-DevKitC-1 default SCL
 const char *BLE_NAME = "FanBalancer";
 const float MIN_HZ = 5.0f;           // search band for the rotation frequency
